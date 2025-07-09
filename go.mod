@@ -1,4 +1,4 @@
-module github.com/Macstar-hub/pb
+module github.com/macstar-hub/pb
 
 go 1.23.3
 
