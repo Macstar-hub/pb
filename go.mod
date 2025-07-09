@@ -6,5 +6,5 @@ require (
 	github.com/mattn/go-runewidth v0.0.4
 	golang.org/x/sys v0.1.0
 )
-
+replace github.com/cheggaaa/pb => Macstar-hub/pb
 go 1.12
