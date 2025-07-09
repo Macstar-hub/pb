@@ -1,4 +1,4 @@
-module github.com/Macstar-hub/pb
+module github.com/cheggaaa/pb
 
 require (
 	github.com/fatih/color v1.9.0
