@@ -3,7 +3,6 @@ module github.com/macstar-hub/pb
 go 1.23.3
 
 require (
-	github.com/cheggaaa/pb v1.0.29
 	github.com/fatih/color v1.18.0
 	github.com/mattn/go-colorable v0.1.14
 	github.com/mattn/go-runewidth v0.0.16
