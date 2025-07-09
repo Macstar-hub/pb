@@ -36,6 +36,7 @@ func New(total int) *ProgressBar {
 
 // Create new progress bar object using int64 as total
 func New64(total int64) *ProgressBar {
+	log.Println("+++++++++++++++++++++++++")
 	pb := &ProgressBar{
 		Total:           total,
 		RefreshRate:     DEFAULT_REFRESH_RATE,
