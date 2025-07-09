@@ -1,10 +1,16 @@
-module github.com/cheggaaa/pb
+module github.com/Macstar-hub/pb
+
+go 1.23.3
 
 require (
-	github.com/fatih/color v1.9.0
-	github.com/mattn/go-colorable v0.1.4
-	github.com/mattn/go-runewidth v0.0.4
-	golang.org/x/sys v0.1.0
+	github.com/cheggaaa/pb v1.0.29
+	github.com/fatih/color v1.18.0
+	github.com/mattn/go-colorable v0.1.14
+	github.com/mattn/go-runewidth v0.0.16
+	golang.org/x/sys v0.34.0
 )
-replace github.com/cheggaaa/pb => Macstar-hub/pb
-go 1.12
+
+require (
+	github.com/mattn/go-isatty v0.0.20 // indirect
+	github.com/rivo/uniseg v0.2.0 // indirect
+)
